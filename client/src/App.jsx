@@ -65,7 +65,7 @@ import AboutUs from "./Components/AboutUs";
 import HomeNavbar from "./Components/HomeNavBar";
 import HomeWhiteNavbar from "./Components/HomeWhiteNavBar";
 import AdminNavi1 from "./Components/AdminNavi1";
-import GrassrootSelect from "./Components/GrassrootSelect";
+
 import GrassAdminSelect from "./Components/GrassAdminSelect";
 import AnimalSectionAdmin from "./Components/AnimalSectionAdmin";
 import AgriAdminSelector from "./Components/AgriAdminSelector";
@@ -170,7 +170,7 @@ export default function App() {
         <Route path="/animsection" element={<><APNavbar/><AgriSections /><AdminFooter /></>} />
         <Route path="/agrisection" element={<><APNavbar/><AnimalSections /><AdminFooter /></>} />
         <Route path="/adminselect" element={<><APNavbar/><AdminNavi1 /><AdminFooter /></>} />
-        <Route path="/grassselect" element={<><APNavbar/><GrassrootSelect /><AdminFooter /></>} />
+       
         <Route path="/grasstypeselect" element={<><APNavbar/><GrassAdminSelect /><AdminFooter /></>} />
         <Route path="/sanimsection" element={<><APNavbar/><AnimalSectionAdmin /><AdminFooter /></>} />
         <Route path="/sagrisection" element={<><APNavbar/><AgriAdminSelector /><AdminFooter /></>} />

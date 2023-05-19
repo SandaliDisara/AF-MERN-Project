@@ -13,7 +13,7 @@ export default function AdminNavi1() {
       src: "./Assets/homePage/satff2.png",
       alt: "staff2",
       text: "Ministry Staff",
-      link: "/agriUser"
+      link: "/agriServices"
     },
     
   ];
